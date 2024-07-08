@@ -1,0 +1,107 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #FDE814;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 300px;
+}
+
+.input {
+  width: 93%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.input:first-of-type {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.input:last-of-type {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #3c1e1e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.divider {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.qr-code-button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.keep-logged-in {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #777;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start; /* 왼쪽 정렬 */
+}
+
+.keep-logged-in input {
+  margin-right: 5px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+  font-size: 14px;
+  color: #777;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

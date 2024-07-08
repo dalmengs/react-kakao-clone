@@ -1,0 +1,129 @@
+.chat-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 60px;
+    background-color: #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .sidebar-icon {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
+  
+  .top-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bottom-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chat-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+  }
+  
+  .chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+  }
+  
+  .chat-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .chat-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .action-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .chat-list {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .chat-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .chat-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .chat-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .chat-details {
+    flex: 1;
+  }
+  
+  .chat-name {
+    font-weight: bold;
+  }
+  
+  .chat-message {
+    color: #888;
+    font-size: 13px;
+  }
+  
+  .chat-meta {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .chat-time {
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .chat-unread {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    margin-top: 3px;
+    padding: 1px;
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+  }
+  

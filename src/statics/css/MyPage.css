@@ -1,0 +1,181 @@
+.friends-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 60px;
+    background-color: #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .sidebar-icon {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
+  
+  .top-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bottom-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .friends-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+  }
+  
+  .friends-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+  }
+  
+  .friends-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .friends-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .action-icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .my-profile {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .profile-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .profile-details {
+    flex: 1;
+  }
+  
+  .profile-name {
+    font-weight: bold;
+  }
+  
+  .profile-message {
+    color: #888;
+    font-size: 13px;
+  }
+  
+  .friends-list-title {
+    padding: 10px 20px;
+    color: #888888;
+    font-size: 14px;
+  }
+  
+  .friends-list {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .friend-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .friend-item:hover {
+    background-color: #f9f9f9;
+  }
+  
+
+  .chat-list {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .chat-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-top: 1px solid #ddd;
+  }
+  
+  .chat-item:hover {
+    background-color: #f9f9f9;
+  }
+
+  .my-profile-div {
+    padding: 16px;
+    background-color: #F8F8F8;
+    border: 1px solid #E6E6E6;
+    width: 100%;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .chat-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .menu {
+    text-align: center;
+    max-width: 550px;
+  }
+
+  .menu-image {
+    width: 90%;
+  }
+  
+  .chat-details {
+    flex: 1;
+  }
+  
+  .chat-name {
+    font-size: 17px;
+    font-weight: lighter;
+  }
+  
+  .chat-message {
+    color: #888;
+    font-size: 13px;
+  }
+  
+  .chat-meta {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .chat-time {
+    font-size: 12px;
+    color: #888;
+  }
